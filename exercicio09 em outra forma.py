@@ -9,6 +9,5 @@ n3 = float(input('Insira o terceiro numero: '))
 
 lista = [n1,n2,n3]
 
-for item in lista:
-    lista.sort(reverse=True)
-    print(lista)
+lista.sort(reverse=True)
+print(lista)
